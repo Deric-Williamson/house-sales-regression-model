@@ -19,8 +19,10 @@ We restricted our data to provide a more meaningful relationship to our model by
 ![](images/Price_Histogram_Boxplot.PNG)
 
 Some other house features were analyzed and corrected from possible outliers, data types, and missing data. For regression accuracy purposes, we decided to drop house square footage data that was above 3,500 square feet. The graph reflects linearity. On average, a house with more than one floor will sell at a higher price than a home with only a single floor. 
+
 ![](images/Square_Footage_Scatterplot.PNG)
 ![](images/Average_PriceperFloor.PNG)
+
 In King County, the location of the home can have a large impact on how expensive the home sells for. The graph shows the more expensive homes in the county are towards the northside, and lower priced homes are in the south. 
 ![](images/Zipcode_Scatterplot.PNG)
 
