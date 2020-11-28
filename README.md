@@ -17,16 +17,21 @@ In this stage, we took an in-depth look into every column. For the sake of makin
 
 We restricted our data to provide a more meaningful relationship to our model by analyzing data from the house price range of $150,000 to $710,000.
 - TODO Add Price Histogram pic from powerpoint
+![](images/Price_Histogram_Boxplot.PNG)
 
 Some other house features were analyzed and corrected from possible outliers, data types, and missing data. For regression accuracy purposes, we decided to drop house square footage data that was above 3,500 square feet. The graph reflects linearity. On average, a house with more than one floor will sell at a higher price than a home with only a single floor. 
 - TODO Add Square footage scatterplot picture
+![](images/Square_Footage_Scatterplot.PNG)
 - TODO add Average price per floor picture
-
+![](images/Average_PriceperFloor.PNG)
 In King County, the location of the home can have a large impact on how expensive the home sells for. The graph shows the more expensive homes in the county are towards the northside, and lower priced homes are in the south. 
 - TODO add zipcode scatterplot
+![](images/Zipcode_Scatterplot.PNG)
 
 We categorized zipcode into four different categories based off of frequency of the zipcode in the data and price.
 - TODO add 3 zipcode pictures
+![](images/Zipcode_Pic1.PNG)
+![](images/Zipcode_pic2.PNG)
 
 ## Preprocessing Data 
 In this phase, we handled our correlated and categorical features. Once we finished this step we were able to use this data set for our first regressive model. The idea behind regression is that you should be able to change one predictor and observe the change in outcome. This is where the error of multicollinearity comes in. Instead of changing one predictor, there might be a change in other predictors due to high multicollinearity. We are using 'One-Hot encoding' to deal with these categorical features. We did this by turning our categorical features into multiple binary features, so our algorithm did not use our categorical features as a continuous feature.
@@ -51,11 +56,13 @@ During the modeling process, we:
 
 ## Final Model
 - TODO add pp final model pic
+![](images/PP_Slide_Final_Model.PNG)
 
 
 ## Predictive Function
 Lastly, we added a predictive function to calculate the estimated price of a house based off the linear regression line.
 - TODO add calculator photo
+![](images/Caculator.PNG)
 
 ## Recommendations
 Looking at our model, we recommend:
