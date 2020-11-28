@@ -16,20 +16,15 @@ Given the 'kc_house_data.csv' file, the data scientist team is expected to:
 In this stage, we took an in-depth look into every column. For the sake of making our regression model accurate, we dealt with all outliers and checked for feature linearities. Histograms and Boxplots are a nice tool to find outliers. Scatter plots work nicely for a quick visualization for linearity. This is also where we made decisions on what kind of data would belong in our model. 
 
 We restricted our data to provide a more meaningful relationship to our model by analyzing data from the house price range of $150,000 to $710,000.
-- TODO Add Price Histogram pic from powerpoint
 ![](images/Price_Histogram_Boxplot.PNG)
 
 Some other house features were analyzed and corrected from possible outliers, data types, and missing data. For regression accuracy purposes, we decided to drop house square footage data that was above 3,500 square feet. The graph reflects linearity. On average, a house with more than one floor will sell at a higher price than a home with only a single floor. 
-- TODO Add Square footage scatterplot picture
 ![](images/Square_Footage_Scatterplot.PNG)
-- TODO add Average price per floor picture
 ![](images/Average_PriceperFloor.PNG)
 In King County, the location of the home can have a large impact on how expensive the home sells for. The graph shows the more expensive homes in the county are towards the northside, and lower priced homes are in the south. 
-- TODO add zipcode scatterplot
 ![](images/Zipcode_Scatterplot.PNG)
 
 We categorized zipcode into four different categories based off of frequency of the zipcode in the data and price.
-- TODO add 3 zipcode pictures
 ![](images/Zipcode_Pic1.PNG)
 ![](images/Zipcode_pic2.PNG)
 
@@ -55,13 +50,11 @@ During the modeling process, we:
 
 
 ## Final Model
-- TODO add pp final model pic
 ![](images/PP_Slide_Final_Model.PNG)
 
 
 ## Predictive Function
 Lastly, we added a predictive function to calculate the estimated price of a house based off the linear regression line.
-- TODO add calculator photo
 ![](images/Caculator.PNG)
 
 ## Recommendations
