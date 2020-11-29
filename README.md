@@ -50,7 +50,7 @@ During the modeling process, we:
   * Will help with model accuracy
 
 - Categorized zipcode into four categories
-  * Zipcodes were categorized by __price and frequencies found in raw data__
+  * Zipcodes were categorized by <ins>price</ins> and frequencies found in raw data
 
 
 
