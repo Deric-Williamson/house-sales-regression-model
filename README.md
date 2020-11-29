@@ -50,7 +50,7 @@ During the modeling process, we:
   * Will help with model accuracy
 
 - Categorized zipcode into four categories
-  * Zipcodes were categorized by <ins>price</ins> and frequencies found in raw data
+  * Zipcodes were categorized by <ins>price and frequencies</ins> found in raw data
 
 
 
@@ -60,14 +60,14 @@ During the modeling process, we:
 
 
 ## Predictive Function
-Lastly, we added a predictive function to calculate the estimated price of a house based off the linear regression line.
+**Lastly**, we added a predictive function to calculate the estimated price of a house based off the linear regression line.
 
 ![](images/Caculator.PNG)
 
 ## Recommendations
 Looking at our model, we recommend:
 
-- Size, location and the number of floors have the biggest influences on house prices
+- **Size, location and the number of floors** have the biggest influences on house prices
   * More expensive homes are located on the northside of the county, while less expensive homes are in the south
 
 - It's better to have an additional bathroom over an additional bedroom
