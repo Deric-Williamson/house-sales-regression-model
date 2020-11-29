@@ -1,4 +1,4 @@
-# house-sales-regression-model
+# House-sales-regression-model
 ## Contributors 
 - Deric Williamson
 - Eric Cusick
