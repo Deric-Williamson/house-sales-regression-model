@@ -4,7 +4,7 @@
 - Eric Cusick
 
 ## Business Case
-A home renovation contract team has employed the services of data scientists to create a model predicting how much a house will sell for in the King County, WA area. 
+A home renovation contract team has employed the services of data scientists to create a model predicting how much a house will sell for in the **King County, WA** area. 
 
 Given the [kc_house_data.csv](https://github.com/Deric-Williamson/house-sales-regression-model/blob/main/data/kc_house_data.csv) file, the data scientist team is expected to:
 
