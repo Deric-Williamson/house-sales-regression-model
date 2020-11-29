@@ -19,7 +19,7 @@ We restricted our data to provide a more meaningful relationship to our model by
 
 ![](images/Price_Histogram_Boxplot.PNG)
 
-Some other house features were analyzed and corrected from possible outliers, data types, and missing data. For regression accuracy purposes, we decided to drop house square footage data that was above 3,500 square feet. The graph reflects linearity. On average, a house with more than one floor will sell at a higher price than a home with only a single floor. 
+Some other house features were analyzed and corrected from possible outliers, data types, and missing data. For regression accuracy purposes, we decided to drop house square footage data that was above 3,500 square feet. The graph reflects **linearity**. On average, a house with more than one floor will sell at a higher price than a home with only a single floor. 
 
 ![](images/Square_Footage_Scatterplot.PNG)
 ![](images/Average_PriceperFloor.PNG)
@@ -35,7 +35,7 @@ We categorized zipcode into four different categories based off of frequency of 
 ![](images/Zipcode_pic2.PNG)
 
 ## Preprocessing Data 
-In this phase, we handled our correlated and categorical features. Once we finished this step we were able to use this data set for our first regressive model. The idea behind regression is that you should be able to change one predictor and observe the change in outcome. This is where the error of multicollinearity comes in. Instead of changing one predictor, there might be a change in other predictors due to high multicollinearity. We are using 'One-Hot encoding' to deal with these categorical features. We did this by turning our categorical features into multiple binary features, so our algorithm did not use our categorical features as a continuous feature.
+In this phase, we handled our correlated and categorical features. Once we finished this step we were able to use this data set for our first regressive model. The idea behind regression is that you should be able to change one predictor and observe the change in outcome. This is where the error of multicollinearity comes in. Instead of changing one predictor, there might be a change in other predictors due to **high multicollinearity**. We are using '**One-Hot encoding'** to deal with these categorical features. We did this by turning our categorical features into multiple binary features, so our algorithm did not use our categorical features as a continuous feature.
 
 
 ## Modeling Proces
@@ -50,7 +50,7 @@ During the modeling process, we:
   * Will help with model accuracy
 
 - Categorized zipcode into four categories
-  * Zipcodes were categorized by price and frequencies found in raw data
+  * Zipcodes were categorized by __price and frequencies found in raw data__
 
 
 
